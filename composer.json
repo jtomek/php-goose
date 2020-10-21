@@ -5,18 +5,16 @@
     "keywords": ["scraper", "http", "extractor", "text", "content", "scraping", "website", "readability"],
     "homepage": "https://github.com/scotteh/php-goose",
     "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "Andrew Scott",
-            "email": "andrew@andrewscott.net.au"
-        }
-    ],
+    "authors": [{
+        "name": "Andrew Scott",
+        "email": "andrew@andrewscott.net.au"
+    }],
     "require": {
         "php": ">=7.1.0",
         "ext-mbstring": "*",
         "ext-libxml": "*",
         "lib-libxml": ">=2.7.7",
-        "guzzlehttp/guzzle": "^6.0",
+        "guzzlehttp/guzzle": "^7.0",
         "jakeasmith/http_build_url": "1.0.*",
         "scotteh/php-dom-wrapper": "^1.0"
     },
